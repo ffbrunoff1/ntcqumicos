@@ -50,9 +50,7 @@ export default function Header() {
             <img
               src="https://qotdwocbcoirjlqjkjhq.supabase.co/storage/v1/object/imagens.website.creation/ad5c31a2-f045-4f97-a0ab-2d4f0e6a69e7/logo_1754667300807_0.png"
               alt="NTC Brasil"
-              className={`h-12 w-auto transition-all duration-300 ${
-                isScrolled ? '' : 'filter invert brightness-0'
-              }`}
+              className="h-12 w-auto"
             />
           </motion.div>
 
@@ -61,9 +59,7 @@ export default function Header() {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className={`font-medium transition-colors duration-300 hover:text-primary-400 ${
-                  isScrolled ? 'text-gray-800' : 'text-white'
-                }`}
+                className="font-medium transition-colors duration-300 hover:text-primary-400 text-gray-800"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 initial={{ opacity: 0, y: -20 }}
@@ -89,9 +85,7 @@ export default function Header() {
           </nav>
 
           <motion.button
-            className={`md:hidden p-2 rounded-lg transition-colors ${
-              isScrolled ? 'text-gray-800' : 'text-white'
-            }`}
+            className="md:hidden p-2 rounded-lg transition-colors text-gray-800"
             onClick={() => setIsOpen(!isOpen)}
             whileTap={{ scale: 0.95 }}
           >
