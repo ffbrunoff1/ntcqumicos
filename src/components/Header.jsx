@@ -48,7 +48,7 @@ export default function Header() {
             transition={{ duration: 0.2 }}
           >
             <img
-              src="https://qotdwocbcoirjlqjkjhq.supabase.co/storage/v1/object/imagens.website.creation/ad5c31a2-f045-4f97-a0ab-2d4f0e6a69e7/logo_1754667300807_0.png"
+              src="https://qotdwocbcoirjlqjkjhq.supabase.co/storage/v1/object/public/user-files/ad5c31a2-f045-4f97-a0ab-2d4f0e6a69e7/1754671903251_o3v0zp7y0y_Co_pia_de_Design_sem_nome.png"
               alt="NTC Brasil"
               className="h-12 w-auto"
             />
